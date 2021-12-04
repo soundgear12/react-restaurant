@@ -4,6 +4,7 @@ import NavBar from './Components/Navbar';
 import Header from './Components/Header';
 import Products from './Components/Products';
 import About from './Components/About';
+import Contact from './Components/Contact';
 import {css} from "@emotion/react";
 import PropagateLoader from 'react-spinners/PropagateLoader';
 import reactDom from 'react-dom';
@@ -35,6 +36,7 @@ function App() {
         <Header />
         <Products />
         <About />
+        <Contact />
         </>  
       }
 
