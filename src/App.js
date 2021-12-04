@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './Components/Navbar';
 import Header from './Components/Header';
 import Products from './Components/Products';
+import About from './Components/About';
 import {css} from "@emotion/react";
 import PropagateLoader from 'react-spinners/PropagateLoader';
 import reactDom from 'react-dom';
@@ -22,6 +23,7 @@ function App() {
       setLoading(false)
     }, 2000);
   },[])
+
   return (
     <div className="App">
       
@@ -32,6 +34,7 @@ function App() {
         <NavBar />
         <Header />
         <Products />
+        <About />
         </>  
       }
 
